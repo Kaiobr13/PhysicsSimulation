@@ -40,7 +40,7 @@ int main() {
     for (int i = 0; i < numParticles; i++) {
         printf("\nParticle %d:\n", i+1);
         printf("Enter the position (x, y, z): ");
-        scanf("%lf %lf %lf", &particles[i].x, &particles[i].y, &particles[i].z);        // Store each position in the dimension for each particle
+        scanf("%lf %lf %lf", &particles[i].x, &particles[i].y, &particles[i].z);        // Store each position in the dimension for each particle (e.g 12 82 50)
 
         printf("Enter the mass: ");
         scanf("%lf", &particles[i].mass);       // Store the mass of each particle
